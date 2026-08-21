@@ -150,6 +150,23 @@ const translations = {
   "results.msg": { es: "Tasa de mensajes", en: "Message rate" },
   "results.clicks": { es: "Clics únicos", en: "Unique clicks" },
 
+  "testi.kicker": { es: "Lo que dicen mis clientes", en: "What my clients say" },
+  "testi.title": { es: "Testimonios", en: "Testimonials" },
+  "testi.t1.quote": {
+    es: "La verdad fue un antes y un después para mi negocio. Venía de meses justos de ingresos, y fue un salto del cielo a la tierra gracias a ti.",
+    en: "It really was a before-and-after for my business. I was barely getting by, and it felt like a leap from the ground to the sky thanks to you."
+  },
+  "testi.t2.quote": {
+    es: "Me impresionó tu trabajo, la verdad nunca pensé que me fuera a ir bien también. Me arrepiento de no habértelo dicho antes, ¡muchas gracias!",
+    en: "Your work impressed me — honestly, I never thought it would go well for me too. I regret not telling you sooner, thank you so much!"
+  },
+  "testi.t2.role": { es: "Colorista independiente", en: "Independent hair colorist" },
+  "testi.t3.quote": {
+    es: "Me ayudaste mucho con la gestión de mi tienda y a cuadrar el píxel. Te lo agradezco mucho, tanto como con las automatizaciones que me creaste — me ahorraste mucho trabajo. ¡Mil gracias, Carlos!",
+    en: "You helped me a lot with managing my store and setting up the pixel correctly. I really appreciate it, along with the automations you built for me — you saved me a lot of work. Thank you so much, Carlos!"
+  },
+  "testi.t3.role": { es: "E-commerce", en: "E-commerce" },
+
   "collab.kicker": { es: "Colaboraciones", en: "Collaborations" },
   "collab.title": { es: "Proyectos y colaboraciones", en: "Projects & collaborations" },
   "collab.c1": {

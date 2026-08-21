@@ -759,6 +759,56 @@ section { position: relative; z-index: 2; }
   margin-top: 4px;
 }
 
+/* ---------- Testimonials ---------- */
+.testi-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.testi-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px 28px 26px;
+  display: flex;
+  flex-direction: column;
+}
+.testi-mark {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  line-height: 1;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+.testi-quote {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.02rem;
+  color: var(--text-primary);
+  line-height: 1.5;
+  flex: 1;
+  margin-bottom: 22px;
+}
+.testi-author {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border-soft);
+}
+.testi-name {
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+.testi-role {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
 /* ---------- Collaborations ---------- */
 .collab-grid {
   display: grid;
@@ -905,6 +955,7 @@ section { position: relative; z-index: 2; }
   .project-card:nth-child(even) .project-body { order: 2; }
   .project-media.two-shot { grid-template-columns: 1fr; }
   .results-grid { grid-template-columns: 1fr; }
+  .testi-grid { grid-template-columns: 1fr; }
   .collab-grid { grid-template-columns: 1fr; }
   .skills-grid { grid-template-columns: 1fr; }
   .container { padding: 0 20px; }
