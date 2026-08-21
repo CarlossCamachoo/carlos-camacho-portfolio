@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Carlos Camacho — CV</title>
+<style>
+  @page { size: Letter; margin: 12mm 16mm; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #1a1a1a;
+    font-size: 9.3pt;
+    line-height: 1.32;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 2.5px solid #ff5a1f;
+    padding-bottom: 7px;
+    margin-bottom: 10px;
+  }
+  .name {
+    font-size: 21pt;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  .title {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 9pt;
+    color: #ff5a1f;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    margin-top: 2px;
+  }
+  .contact {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 8pt;
+    color: #333;
+    text-align: right;
+    line-height: 1.5;
+  }
+  .contact a { color: #333; text-decoration: none; }
+
+  h2 {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 8.3pt;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #ff5a1f;
+    font-weight: 700;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 2px;
+    margin: 9px 0 5px;
+  }
+  section:first-of-type h2 { margin-top: 0; }
+
+  .summary { color: #222; font-size: 9.1pt; }
+
+  .item { margin-bottom: 6px; }
+  .item:last-child { margin-bottom: 0; }
+  .item-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+  }
+  .role {
+    font-weight: 700;
+    font-size: 9.3pt;
+  }
+  .company {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 8pt;
+    color: #555;
+  }
+  .date {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 7.8pt;
+    color: #777;
+    white-space: nowrap;
+  }
+  ul.bullets {
+    list-style: disc;
+    margin: 2px 0 0 15px;
+  }
+  ul.bullets li {
+    margin-bottom: 0.5px;
+    color: #222;
+  }
+
+  .proj-title { font-weight: 700; font-size: 9.3pt; }
+  .proj-tags {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 7.4pt;
+    color: #ff5a1f;
+    margin-top: 1px;
+  }
+  .proj-desc { color: #222; margin-top: 1px; }
+
+  .metrics-row {
+    display: flex;
+    gap: 22px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin-top: 4px;
+  }
+  .metric-num { font-size: 12pt; font-weight: 700; color: #ff5a1f; }
+  .metric-label { font-size: 7pt; color: #666; text-transform: uppercase; letter-spacing: 0.04em; }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px 20px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 8.2pt;
+  }
+  .skill-group-title { font-weight: 700; color: #333; }
+  .skill-group-vals { color: #444; }
+
+  .edu-row {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 8.4pt;
+    margin-bottom: 3px;
+  }
+  .edu-org { color: #666; }
+
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 0 30px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <div class="name">Carlos Camacho</div>
+    <div class="title">Especialista en Pauta Digital (Meta Ads &amp; TikTok Ads) · Automatización con IA</div>
+  </div>
+  <div class="contact">
+    carloscamacho0204@gmail.com<br>
+    +57 301 310 8268 · WhatsApp<br>
+    Floridablanca / Bucaramanga, Colombia
+  </div>
+</div>
+
+<section>
+  <h2>Perfil profesional</h2>
+  <p class="summary">Especialista en Meta Ads y TikTok Ads con experiencia gestionando presupuestos CBO y ABO, optimizando ROAS y CPA, y llevando marcas de belleza y ecommerce desde la estrategia de contenido hasta el cierre de venta por WhatsApp. Mi diferencial: uso inteligencia artificial para construir mis propias herramientas — sistemas de gestión, paneles de control y automatizaciones de reportes vía APIs — reduciendo trabajo manual y acelerando el seguimiento a clientes.</p>
+  <div class="metrics-row">
+    <div><div class="metric-num">$268.564</div><div class="metric-label">Administrados en pauta</div></div>
+    <div><div class="metric-num">318</div><div class="metric-label">Resultados generados</div></div>
+    <div><div class="metric-num">3</div><div class="metric-label">Productos de software con IA</div></div>
+  </div>
+</section>
+
+<section>
+  <h2>Experiencia laboral</h2>
+
+  <div class="item">
+    <div class="item-head">
+      <div><span class="role">Especialista en Pauta Digital (Trafficker)</span> — <span class="company">Mafe Velásquez Estética</span></div>
+      <div class="date">May. 2025 — Ene. 2026</div>
+    </div>
+    <ul class="bullets">
+      <li>Diseñé y optimicé campañas en Meta Ads orientadas a WhatsApp para un negocio de maquillaje y peinado a domicilio, ajustando presupuesto CBO según el comportamiento de cada conjunto de anuncios.</li>
+      <li>Reposicioné la estrategia de Instagram (bio, historias destacadas, grid, plantillas de copy), moviendo el enfoque hacia maquillaje y peinado de eventos.</li>
+      <li>Redacté mensajes de cierre de venta y recordatorios de citas por WhatsApp, mejorando la tasa de respuesta y el agendamiento.</li>
+      <li>Construí un sistema de gestión a medida (agenda, caja, CRM, recordatorios automáticos) que reemplazó hojas de cálculo y mensajes manuales.</li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <div class="item-head">
+      <div><span class="role">Media Buyer &amp; Gestor de E-commerce</span> — <span class="company">House&amp;Buy</span></div>
+      <div class="date">Ene. 2025</div>
+    </div>
+    <ul class="bullets">
+      <li>Construí el ecosistema de venta en Shopify, desde landing page hasta checkout, integrando tráfico pago y seguimiento de conversiones.</li>
+      <li>Gestioné la inversión publicitaria y optimicé el ROI ajustando públicos, presupuestos y creativos.</li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <div class="item-head">
+      <div><span class="role">Ejecutivo de Ventas (Closer)</span> — <span class="company">Grafikar SAS</span></div>
+      <div class="date">Jul. 2023 — Ene. 2024</div>
+    </div>
+    <ul class="bullets">
+      <li>Cerré ventas de alto impacto gestionando objeciones y seguimiento estructurado a prospectos.</li>
+      <li>Optimicé el último tramo del embudo de conversión, elevando la tasa de cierre sobre leads calificados.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Proyectos &amp; desarrollo con IA</h2>
+
+  <div class="item">
+    <div class="proj-title">Sistema de Gestión — Mafe Velásquez Estética</div>
+    <div class="proj-desc">Panel de administración a medida: agenda de citas, control de caja, CRM y recordatorios automáticos por WhatsApp. Reemplazó hojas de cálculo y mensajes manuales por un flujo centralizado.</div>
+    <div class="proj-tags">Automatización WhatsApp · Agenda &amp; CRM · Control de caja</div>
+  </div>
+
+  <div class="item">
+    <div class="proj-title">ControlDrop</div>
+    <div class="proj-desc">Panel de control para un negocio de dropshipping: pedidos, devoluciones, gasto en ads y ROAS, cierre mensual, CRM, plantillas de WhatsApp y semáforo de KPIs con benchmarks de la industria.</div>
+    <div class="proj-tags">E-commerce · ROAS · CRM &amp; WhatsApp · Dropshipping</div>
+  </div>
+
+  <div class="item">
+    <div class="proj-title">Finanzas / Libro Mayor</div>
+    <div class="proj-desc">Aplicación de finanzas personales que sincroniza automáticamente transacciones bancarias desde el correo del usuario, categoriza gastos y presenta el balance mensual en un dashboard claro.</div>
+    <div class="proj-tags">Automatización · APIs · Finanzas personales</div>
+  </div>
+</section>
+
+<div class="two-col">
+  <section>
+    <h2>Habilidades</h2>
+    <div class="skills-grid">
+      <div class="skill-group-title">Pauta digital</div>
+      <div class="skill-group-vals">Meta Ads, TikTok Ads, CBO/ABO, ROAS, CPA, segmentación</div>
+      <div class="skill-group-title">Automatización &amp; IA</div>
+      <div class="skill-group-vals">Desarrollo asistido por IA, APIs, flujos WhatsApp, CRM</div>
+      <div class="skill-group-title">Herramientas</div>
+      <div class="skill-group-vals">Shopify, Meta Business Suite, WhatsApp Business, Sheets, Canva, CapCut</div>
+      <div class="skill-group-title">Comunicación &amp; ventas</div>
+      <div class="skill-group-vals">Copywriting, cierre de ventas, manejo de objeciones</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Educación y certificaciones</h2>
+    <div class="edu-row"><span>Certificado Oficial Meta Ads</span><span class="edu-org">Escuela Felipe Vergara</span></div>
+    <div class="edu-row"><span>Landing Pages en Shopify &amp; fundamentos Meta Ads</span><span class="edu-org">Comunidad Iván Caicedo</span></div>
+    <div class="edu-row"><span>Inglés intermedio B2</span><span class="edu-org">Oxford School</span></div>
+  </section>
+</div>
+
+</body>
+</html>
