@@ -847,6 +847,10 @@ section { position: relative; z-index: 2; }
   background: var(--bg-card);
   padding: 30px 32px;
 }
+.skill-group-lead {
+  grid-column: 1 / -1;
+}
+.skill-group-lead .skill-group-title { color: var(--up); }
 .skill-group-title {
   font-family: var(--font-mono);
   font-size: 0.75rem;

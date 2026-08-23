@@ -13,14 +13,14 @@ const translations = {
   "nav.cta":     { es: "WhatsApp",      en: "WhatsApp" },
   "nav.cv":      { es: "CV (PDF)",      en: "Resume (PDF)" },
 
-  "hero.kicker": { es: "Especialista en Meta Ads &amp; TikTok Ads · Automatización con IA", en: "Meta Ads &amp; TikTok Ads Specialist · AI Automation" },
+  "hero.kicker": { es: "Growth Marketer Full-Stack · Investigación, Contenido &amp; Automatización con IA", en: "Full-Stack Growth Marketer · Research, Content &amp; AI Automation" },
   "hero.title":  {
-    es: "Escalo marcas con pauta digital<br> — y <em>construyo</em> el software que las hace funcionar.",
-    en: "I scale brands with paid media<br> — and <em>build</em> the software that runs them."
+    es: "Investigo el mercado y creo lo que convierte.<br>Escalo con pauta digital — y <em>construyo</em> el software que lo sostiene.",
+    en: "I research the market and create what converts.<br>I scale with paid media — and <em>build</em> the software that runs it."
   },
   "hero.sub": {
-    es: "Gestiono presupuestos CBO/ABO en Meta Ads y TikTok Ads, optimizo ROAS y CPA, y automatizo con IA los procesos que la mayoría de traffickers tercerizan. Opero como un equipo completo: pauta, contenido, automatización y desarrollo.",
-    en: "I manage CBO/ABO budgets on Meta Ads and TikTok Ads, optimize ROAS and CPA, and use AI to automate the processes most traffickers outsource. I operate as a full team: media buying, content, automation and development."
+    es: "Antes de invertir un peso en pauta, investigo el mercado y analizo a la competencia. Diseño el contenido que convierte, gestiono presupuestos CBO/ABO en Meta Ads y TikTok Ads, y automatizo con IA los procesos que la mayoría de traffickers tercerizan. Investigación, contenido, pauta, automatización y desarrollo — todo en un solo equipo: yo.",
+    en: "Before spending a single dollar on ads, I research the market and analyze the competition. I design content that converts, manage CBO/ABO budgets on Meta Ads and TikTok Ads, and use AI to automate the processes most traffickers outsource. Research, content, paid media, automation and development — all in one team: me."
   },
   "hero.ctaProjects": { es: "Ver lo que he construido", en: "See what I've built" },
   "hero.ctaContact": { es: "Hablemos por WhatsApp", en: "Let's talk on WhatsApp" },
@@ -28,7 +28,7 @@ const translations = {
   "hero.availableSub": { es: "— remoto o presencial", en: "— remote or on-site" },
   "hero.location": { es: "Floridablanca / Bucaramanga, Colombia", en: "Floridablanca / Bucaramanga, Colombia" },
   "hero.langs": { es: "Español nativo · Inglés B2", en: "Native Spanish · B2 English" },
-  "hero.photoTag": { es: "Meta Ads · TikTok Ads · IA", en: "Meta Ads · TikTok Ads · AI" },
+  "hero.photoTag": { es: "Research · Contenido · Pauta · IA", en: "Research · Content · Paid Media · AI" },
 
   "stats.spend": { es: "Administrados en pauta (Meta Ads)", en: "Managed in Meta Ads spend" },
   "stats.results": { es: "Resultados generados en campañas activas", en: "Results generated in active campaigns" },
@@ -37,8 +37,8 @@ const translations = {
   "about.kicker": { es: "Perfil profesional", en: "Professional profile" },
   "about.title": { es: "Un equipo de una sola persona", en: "A one-person team" },
   "about.p1": {
-    es: "<strong>Trafficker de Meta Ads y TikTok Ads</strong> con experiencia gestionando presupuestos CBO y ABO, optimizando ROAS y CPA, y llevando marcas de belleza y ecommerce desde la estrategia de contenido hasta el cierre de venta por WhatsApp.",
-    en: "<strong>Meta Ads and TikTok Ads trafficker</strong> experienced in managing CBO and ABO budgets, optimizing ROAS and CPA, and taking beauty and ecommerce brands from content strategy to closing sales over WhatsApp."
+    es: "<strong>Growth marketer full-stack</strong> con experiencia gestionando presupuestos CBO y ABO en Meta Ads y TikTok Ads, optimizando ROAS y CPA. Antes de escalar cualquier campaña, investigo el mercado y analizo a la competencia para que la estrategia y el contenido conecten con lo que la marca realmente necesita.",
+    en: "<strong>Full-stack growth marketer</strong> experienced in managing CBO and ABO budgets on Meta Ads and TikTok Ads, optimizing ROAS and CPA. Before scaling any campaign, I research the market and analyze the competition so strategy and content actually connect with what the brand needs."
   },
   "about.p2": {
     es: "Mi diferencial es que uso inteligencia artificial no solo para apoyar la ejecución de pauta, sino para <strong>construir mis propias herramientas</strong>: sistemas de gestión, paneles de control y automatizaciones de reportes mediante APIs que agilizan la atención y el seguimiento a clientes.",
@@ -54,9 +54,11 @@ const translations = {
   "about.f2v": { es: "Remoto o presencial", en: "Remote or on-site" },
   "about.f3l": { es: "Plataformas", en: "Platforms" },
   "about.f4l": { es: "Diferencial", en: "Edge" },
-  "about.f4v": { es: "Construyo software con IA para automatizar operación", en: "I build AI-powered software to automate operations" },
+  "about.f4v": { es: "Investigación + contenido + software con IA", en: "Research + content + AI-built software" },
   "about.f5l": { es: "Idiomas", en: "Languages" },
   "about.f5v": { es: "Español nativo · Inglés B2", en: "Native Spanish · B2 English" },
+  "about.f6l": { es: "Metodología", en: "Methodology" },
+  "about.f6v": { es: "Investigación → Contenido → Pauta → Automatización", en: "Research → Content → Paid Media → Automation" },
 
   "exp.kicker": { es: "Experiencia", en: "Experience" },
   "exp.title": { es: "Experiencia laboral", en: "Work experience" },
@@ -184,6 +186,11 @@ const translations = {
 
   "skills.kicker": { es: "Habilidades técnicas", en: "Technical skills" },
   "skills.title": { es: "Habilidades", en: "Skills" },
+  "skills.g0": { es: "Investigación &amp; estrategia", en: "Research &amp; strategy" },
+  "skills.g0.t1": { es: "Investigación de mercado", en: "Market research" },
+  "skills.g0.t2": { es: "Análisis de competencia", en: "Competitive analysis" },
+  "skills.g0.t3": { es: "Growth strategy", en: "Growth strategy" },
+  "skills.g0.t4": { es: "Embudos de conversión", en: "Conversion funnels" },
   "skills.g1": { es: "Pauta digital", en: "Paid media" },
   "skills.g1.t1": { es: "Segmentación de públicos", en: "Audience segmentation" },
   "skills.g2": { es: "Automatización &amp; IA", en: "Automation &amp; AI" },
